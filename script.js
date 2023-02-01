@@ -107,10 +107,9 @@ if(passwordLength >= 8 && passwordLength <= 128) {
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    const element = array[i];
-    
-  }
+  
+return arr[Math.floor(Math.random()*arr.length)];
+
 }
 
 // Function to generate password with user input
